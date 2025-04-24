@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hunter Bass</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= favicon_link_tag '/assets/hunter_bass_va_logo.png' %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <div class="header-section">
+      <div class="header">
+          <div class="header-flex">
+              <div class="flex">
+                <div class="link-pointer" onclick='showTab("about_section")'><div class="header-list-item">About</div></div>
+                <div class="link-pointer" onclick='showTab("voice_demo_section")'><div class="header-list-item">Voice Demos</div></div>
+                <div class="link-pointer" onclick='showTab("contact_section")'><div class="header-list-item">Contact</div></div>
+              </div>
+
+              <div class="social-margin flex">
+                <a class="icon-link" href="https://www.twitch.tv/kingAzereth">
+                  <span class="icon-background"><img class="icon-style" src="assets/twitch_icon.png" /></span>
+                </a>
+                <a class="icon-link" href="https://www.tiktok.com/@kingazereth">
+                  <span class="icon-background"><img class="icon-style" src="assets/tik_tok.png" /></span>
+                </a>
+                <a class="icon-link" href="https://x.com/KingAzereth">
+                  <span class="icon-background"><img class="icon-style" src="assets/x_twitter_icon.png" /></span>
+                </a>
+                <a class="icon-link" href="https://www.youtube.com/@KingAzereth">
+                  <span class="icon-background"><img class="icon-style" src="assets/youtube_icon.png" /></span>
+                </a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+<div class="name-photo-section flex">
+    <div class="name-title-section">
+        <h1 class="name-style">Hunter Bass</h1>
+        <h3 class="title-style">Voice Actor</h3>
+    </div>
+
+    <div class="full-width">
+        <img class="headshot-style" src="assets/headshot.png" />
+    </div>
+</div>
+
+<div class="body-section">
+    <input id="active_section_holder" type="hidden" autocomplete="off" value="about_section">
+
+    <div id="about_section" class="body-contents">
+        <p class="quote-text margin-top-0 margin-bottom-0">American Male Voice</p>
+        <p class="quote-text margin-bottom-2 margin-top-0">Calming | Resolute | Inviting</p>
+
+        <p class="home-text">
+            I have a distinguished voice known for my uniquely soothing and authoritative voice. My calming tone instantly 
+            puts listeners at ease, making me a standout in the industry.
+        </p>    
+
+        <p class="home-text">
+            My voice carries a resolute strength that commands attention without overwhelming the listener. Producers often seek me out 
+            for projects requiring a guiding, trustworthy voice, knowing my delivery will be both compelling and comforting.
+        </p>    
+
+        <p class="home-text">
+            Those I work with say my every word carries an inviting warmth that conveys sincerity and empathy, creating a strong connection with the audience.
+            This makes listeners feel values and understood, making me perfect for roles requiring a relatable and endearing presence.
+        </p>
+
+        <p class="home-text">
+            I record in a fully soundproofed booth equipped with a Scarlet Focusrite audio interface, an NT1A microphone, and use Ableton Live 12 for editing.
+            My internet speeds are 747 Mbps download and 344 Mbps upload, ensuring high-quality, reliable communication and performance.
+        </p>
+    </div>
+
+    <div id="voice_demo_section" class="body-contents hidden">
+        <h1 class="margin-top-0">Featured Releases</h1>
+        
+        <div>Animation Demo</div>
+        <%= audio_tag("/assets/Hunters Bass Animation.mp3", controls: "controls", type: "audio/mp3", class: 'audio-style') %>
+
+        <div>Booth Test</div>
+        <%= audio_tag("/assets/Live booth sample.wav", controls: "controls", type: "audio/wav", class: 'audio-style') %>
+
+        <div>Work Example</div>
+        <%= audio_tag("/assets/Nori_HunterBass.wav", controls: "controls", type: "audio/wav", class: 'audio-style') %>
+    </div>
+
+    <div id="contact_section" class="body-contents hidden">
+        <h1 class="margin-top-0">Contact Me</h1>
+        <div>For business inquiries use HunterBassVA@gmail.com</div>
+    </div>
+</div>
+
+<div class="flex footer">
+    Website Made by Patrick :D
+</div>

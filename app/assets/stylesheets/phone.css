@@ -1,0 +1,23 @@
+@media (max-width: 920px) {
+    * { scroll-margin-top: 1rem; }
+
+    .panel-2 { 
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .panel-1 { flex: 0; }
+    .panel-3 { flex: 0; }
+
+    .header-flex { 
+        flex-direction: column;
+    }
+    .header-section { position: relative; }
+    .header-list-item { 
+        text-align: left;
+        padding: .25rem;
+    }
+    .social-margin { margin-left: 0rem; }
+    .body-section { margin-top: 0rem; }
+    .secondary-video-style { min-width: 0; }
+}

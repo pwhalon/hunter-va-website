@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## hunter va website
 
-Things you may want to cover:
+Code for Hunters VA website including references to his socials and voice links
 
-* Ruby version
+Technically not a rails website but this repo has everything sorted so I can keep track of where the images and links are and test them
 
-* System dependencies
+The main file for the static website is generated from each of the views in `views/index.html` then uploaded to S3
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
